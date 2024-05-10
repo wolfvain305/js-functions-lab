@@ -121,13 +121,44 @@ Complete the exercise in the space below:
 
 function reverseString(string){
     let splitString = string.split("");
-    console.log (splitString)
+    
 
     let reverseArray = splitString.reverse('');
-    console.log(reverseArray)
-
+    
     let joinArray = reverseArray.join('');
     return joinArray
 }
 
 console.log('Exercise 6 Result:', reverseString("rockstar"));
+
+/*
+Exercise 7: checkPalindrome()
+
+Define a function called checkPalindrome. It should take a string and return true if the string is a palindrome (reads the same forwards and backwards) and false otherwise.
+
+Example: checkPalindrome('radar') should return true.
+Example: checkPalindrome('taco') should return false.
+
+Complete the exercise in the space below:
+*/
+
+function checkPalindrome(string){
+
+    let splitstring =string.split('')
+    console.log (splitstring)
+
+    let reverseArray = splitstring.reverse('')
+    console.log (reverseArray)
+
+    joinArray = reverseArray.join('')
+    console.log(joinArray)
+
+    if (string === joinArray){
+        return true
+    }
+    else {
+        return false
+    }
+}
+
+console.log('Exercise 7 Result:', checkPalindrome("bob"));
