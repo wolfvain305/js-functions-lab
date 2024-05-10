@@ -120,8 +120,14 @@ Complete the exercise in the space below:
 */
 
 function reverseString(string){
-    string 
-    return reverseString
+    let splitString = string.split("");
+    console.log (splitString)
+
+    let reverseArray = splitString.reverse('');
+    console.log(reverseArray)
+
+    let joinArray = reverseArray.join('');
+    return joinArray
 }
 
 console.log('Exercise 6 Result:', reverseString("rockstar"));
