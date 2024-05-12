@@ -149,7 +149,7 @@ function checkPalindrome(string){
 
     let reverseArray = splitstring.reverse('')
 
-    joinArray = reverseArray.join('')
+    const joinArray = reverseArray.join('')
 
     if (string === joinArray){
         return true
@@ -290,9 +290,9 @@ Complete the exercise in the space below:
 function createUsername(firstName,lastName){
      let firstThreeFirstName = firstName.substring(0,3);
      let firstThreeLastName = lastName.substring(0,3);
-    totalCharacterCount =firstName.length + lastName.length;
+    const totalCharacterCount = firstName.length + lastName.length;
 
-    username = firstThreeFirstName + firstThreeLastName + totalCharacterCount;
+    const username = firstThreeFirstName + firstThreeLastName + totalCharacterCount;
 
     return (username);
 }
