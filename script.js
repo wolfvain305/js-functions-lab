@@ -148,10 +148,8 @@ function checkPalindrome(string){
     console.log (splitstring)
 
     let reverseArray = splitstring.reverse('')
-    console.log (reverseArray)
 
     joinArray = reverseArray.join('')
-    console.log(joinArray)
 
     if (string === joinArray){
         return true
@@ -162,3 +160,20 @@ function checkPalindrome(string){
 }
 
 console.log('Exercise 7 Result:', checkPalindrome("bob"));
+
+/*
+Exercise 8: maxOfThree()
+
+Define a function, maxOfThree. It should accept three numbers and return the largest among them.
+
+Example: maxOfThree(17, 4, 9) should return 17.
+
+Complete the exercise in the space below:
+*/
+
+function maxOfThree (num1, num2, num3){
+    return Math.max(num1, num2, num3)
+}
+
+console.log('Exercise 8 Result:', maxOfThree(5, 10, 8));
+
